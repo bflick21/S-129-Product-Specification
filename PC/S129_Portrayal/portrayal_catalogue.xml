@@ -16,6 +16,16 @@
   </colorProfiles>
 
   <symbols>
+      <symbol id="CURSRB01">
+         <description>
+            <name>CURSRB01</name>
+            <description>cursor with open centre</description>
+            <language>eng</language>
+         </description>
+         <fileName>CURSRB01.svg</fileName>
+         <fileType>Symbol</fileType>
+         <fileFormat>SVG</fileFormat>
+      </symbol>
     <symbol id="UKCCONPT">
       <description>
         <name>UKCCONPT</name>
@@ -201,7 +211,7 @@
   </displayModes>
 
   <displayPlanes>
-    <displayPlane id="UnderRadar" order="-1">
+    <displayPlane id="UnderRADAR" order="-1">
          <description>
             <name>Under radar</name>
             <description>Content displayed underneath Radar image</description>
@@ -237,7 +247,18 @@
       </description>
       <fileName>Default.lua</fileName>
       <fileType>Rule</fileType>
-      <fileFormat>lua</fileFormat>
+      <fileFormat>LUA</fileFormat>
+      <ruleType>SubTemplate</ruleType>
+    </ruleFile>
+    <ruleFile id="S100Scripting">
+      <description>
+      <name>S100Scripting</name>
+      <description>Scripting support</description>
+      <language>eng</language>
+      </description>
+      <fileName>S100Scripting.lua</fileName>
+      <fileType>Rule</fileType>
+      <fileFormat>LUA</fileFormat>
       <ruleType>SubTemplate</ruleType>
     </ruleFile>
     <ruleFile id="PortrayalAPI">
